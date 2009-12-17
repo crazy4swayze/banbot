@@ -1,0 +1,36 @@
+$VAR1 = 'Data::Dumper';
+$VAR2 = [
+          'go|dfish!goldfish@Redbrick.dcu.ie',
+          '#moses',
+          '+b',
+          '*!*@lol.coom'
+        ];
+$VAR1 = 'Data::Dumper';
+$VAR2 = {
+          '*!*@foo.como' => {
+                              'SetAt' => 1261075486,
+                              'SetBy' => 'go|dfish!goldfish@Redbrick.dcu.ie'
+                            },
+          '*!*@lol.coom' => {
+                              'SetAt' => 1261075486,
+                              'SetBy' => 'go|dfish!goldfish@Redbrick.dcu.ie'
+                            }
+        };
+$VAR1 = 'Data::Dumper';
+$VAR2 = [
+          'go|dfish!goldfish@Redbrick.dcu.ie',
+          '#moses',
+          '+b',
+          '*!*@foo.como'
+        ];
+$VAR1 = 'Data::Dumper';
+$VAR2 = {
+          '*!*@foo.como' => {
+                              'SetAt' => 1261075486,
+                              'SetBy' => 'go|dfish!goldfish@Redbrick.dcu.ie'
+                            },
+          '*!*@lol.coom' => {
+                              'SetAt' => 1261075486,
+                              'SetBy' => 'go|dfish!goldfish@Redbrick.dcu.ie'
+                            }
+        };

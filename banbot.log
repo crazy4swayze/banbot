@@ -1,0 +1,25 @@
+$VAR1 = 'Data::Dumper';
+$VAR2 = [
+          \'go|dfish!goldfish@Redbrick.dcu.ie',
+          \'#moses',
+          \'+b',
+          \'*!*@lol.coom',
+          []
+        ];
+$VAR1 = 'Data::Dumper';
+$VAR2 = {};
+$VAR1 = 'Data::Dumper';
+$VAR2 = [
+          \'go|dfish!goldfish@Redbrick.dcu.ie',
+          \'#moses',
+          \'+b',
+          \'*!*@foo.como',
+          []
+        ];
+$VAR1 = 'Data::Dumper';
+$VAR2 = {
+          '*!*@lol.coom' => {
+                              'SetAt' => 1261078574,
+                              'SetBy' => 'go|dfish!goldfish@Redbrick.dcu.ie'
+                            }
+        };

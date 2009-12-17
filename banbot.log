@@ -1,25 +1,39 @@
+mode change at lib/Banbot/Plugin/Bans.pm line 19.
 $VAR1 = 'Data::Dumper';
-$VAR2 = [
+$VAR2 = [ 
           \'go|dfish!goldfish@Redbrick.dcu.ie',
           \'#moses',
           \'+b',
-          \'*!*@lol.coom',
+          \'*!*@lol.c',
           []
         ];
 $VAR1 = 'Data::Dumper';
 $VAR2 = {};
+mode change at lib/Banbot/Plugin/Bans.pm line 19.
 $VAR1 = 'Data::Dumper';
-$VAR2 = [
+$VAR2 = [ 
           \'go|dfish!goldfish@Redbrick.dcu.ie',
           \'#moses',
           \'+b',
-          \'*!*@foo.como',
+          \'*!*@foo.c',
           []
         ];
 $VAR1 = 'Data::Dumper';
-$VAR2 = {
-          '*!*@lol.coom' => {
-                              'SetAt' => 1261078574,
-                              'SetBy' => 'go|dfish!goldfish@Redbrick.dcu.ie'
-                            }
+$VAR2 = { 
+          '*!*@lol.c' => { 
+                           'SetAt' => 1261082802,
+                           'SetBy' => 'go|dfish!goldfish@Redbrick.dcu.ie'
+                         }
+        };
+showbans at lib/Banbot/Plugin/Bans.pm line 11.
+$VAR1 = 'Data::Dumper';
+$VAR2 = { 
+          '*!*@foo.c' => { 
+                           'SetAt' => '1261082802',
+                           'SetBy' => 'go|dfish!goldfish@Redbrick.dcu.ie'
+                         },
+          '*!*@lol.c' => { 
+                           'SetAt' => '1261082802',
+                           'SetBy' => 'go|dfish!goldfish@Redbrick.dcu.ie'
+                         }
         };

@@ -1,0 +1,18 @@
+#!/home/associat/g/goldfish/local/bin/perl
+
+package Banbot;
+use Moses;
+use Data::Dumper;
+
+owner    'go|dfish!goldfish@Redbrick.dcu.ie';
+nickname 'banbot';
+server   'irc.redbrick.dcu.ie';
+channels '#moses';
+
+event irc_chan_mode => sub {
+    my ($self, @args) = @_[ OBJECT, ARG0..$#_ ] ;
+    warn Data::Dumper->Dumper(\@args);
+    warn Data::Dumper->Dumper($self->irc->channel_ban_list($args[1]));
+};
+
+__PACKAGE__->run unless caller;

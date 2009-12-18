@@ -18,7 +18,7 @@ sub S_chan_mode {
     my ( $self, $irc, @args ) = @_;
     warn 'mode change';
     warn Data::Dumper->Dumper( \@args );
-    warn Data::Dumper->Dumper( $self->irc->channel_ban_list(${$args[1]}) )
+    warn Data::Dumper->Dumper( $self->irc->channel_ban_list(${$args[1]}) );
     return PCI_EAT_PLUGIN;
 }
 
